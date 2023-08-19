@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Demo11_Async_WebRequest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Async / Web Request</string>
+    <string name="nav_header_subtitle">Demo Web Mobile 2023</string>
+    <string name="nav_header_desc">Pause ?</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_demo_async">Demo Async</string>
+
+    <string name="btn_start">Start !</string>
+    <string name="counter_default">Compteur !</string>
+    <string name="incr_counter">Compteur : %d</string>
+    <string name="btn_life">In life ?</string>
+    <string name="counter_end">Finish :o</string>
+    <string name="menu_demo_request">Demo Request</string>
+    <string name="btn_request">Call API</string>
+
+
+</resources>

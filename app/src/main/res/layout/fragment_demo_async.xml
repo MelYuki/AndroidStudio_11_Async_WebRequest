@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.demoasync.DemoAsyncFragment">
+
+    <Button
+        android:id="@+id/btn_frag_async_start"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_centerInParent="true"
+        android:text="@string/btn_start"
+        android:textSize="50sp"
+        android:backgroundTint="@color/pink"
+        />
+
+    <TextView
+        android:id="@+id/tv_frag_async_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_frag_async_start"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/counter_default"
+        android:gravity="center"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btn_frag_async_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/btn_life"
+        android:layout_below="@id/btn_frag_async_start"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
